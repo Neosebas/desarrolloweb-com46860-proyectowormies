@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primario: #ffffff;
+    --secundario: #000000;
+    --acento: #fca600;
+    --grey: #cccccc;
+    --fuente-principal :'Crimson Text', serif;
+    --fuente-heading : 'Abril Fatface', cursive;
+}
+
+/**Globales**/
+
+h1{
+    font-family: var(--fuente-heading);
+    font-size: 5.625rem;
+    color: var(--secundario);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 4rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+h2{
+    font-family: var(--fuente-heading);
+    color: var(--secundario);
+    font-size: 2.5625rem;
+    text-transform: uppercase;
+}
+p {
+    font-family: var(--fuente-principal);
+    font-size: 1.3125rem;
+    color: var(--secundario);
+}
+a{
+    color: var(--acento);
+}
+
+/** Header **/
+
+header{
+    background-color: var(--secundario);
+    padding: 1rem 2rem;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    transition: 15ms;
+    z-index: 2;
+}
+.logo-header {
+    max-width: 15.625rem;
+}
+.navegador {
+    display: flex;
+    gap: 1.5rem;
+}
+header a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primario);
+}
+header a:hover {
+    color: var(--acento);
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.redes {
+    max-width: 2rem;
+    max-height: 2rem;
+}
+
+/**Hero**/
+
+.hero {
+    background-image: url(../assets/img/wormies-foto-hover.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 16.25rem;
+    position: relative;
+    background-position: center;
+    margin-bottom: 2rem;
+}
+
+/**Contenedores**/
+
+.contenedor {
+    width: 75rem;
+    margin: 0 auto;
+}
+.contenedor-margin {
+    margin: 0   3.125rem;
+}
+
+/**Nosotros**/
+.img-nosotros {
+    width: 25rem;
+    height: 25rem;
+}
+.cronologia li {
+    padding: .9375rem;
+    border-bottom: .125rem solid var(--acento);
+}
+
+/**Galeria**/
+
+.h2-galeria {
+    text-align: center;
+    margin: 2rem;
+    padding-top: 1rem;
+    border-top: .25rem solid var(--acento);
+}
+.galeria {
+    width: 9.375rem;
+    height: 9.375rem;
+}
+
+/**Fechas**/
+table { 
+    color: var(--secundario);
+    font-size: 1.3125rem;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+thead {
+    background-color: var(--acento);
+    text-transform: uppercase;
+}
+th {
+    padding: 1.25rem .9375rem;
+    font-weight: 700;
+}
+tbody tr {
+    padding: .9375rem;
+    border-bottom: .125rem solid var(--acento);
+}
+
+/**Formulario**/
+form fieldset{
+    margin: 0 1.25rem;
+    width: 75rem;
+    background-color: #e7e0e0a8;
+    border: none;
+}
+
+form input {
+    border: none;
+    background-color: transparent;
+    width: 62.5rem;
+    margin: 1rem 1rem;
+    font-size: 1.5rem;
+    font-family: var(--fuente-principal);
+    border-bottom: .25rem solid var(--secundario);
+}
+form textarea {
+    width: 62.5rem;
+    margin: 1rem 1rem;
+    border: none;
+    border-bottom: .25rem solid var(--secundario);
+    font-family: var(--fuente-principal);
+    font-size: 1.5rem;
+
+}
+.boton-form {
+    color: var(--secundario);
+    background-color: var(--acento);
+    font-size: 2rem;
+    font-family: var(--fuente-principal);  
+    margin: 1rem 1rem;
+    border: none;    
+}
+
+
+/**footer**/ 
+
+footer{
+    width: 100%;
+    height: 1.25rem;
+    background-color: var(--secundario);
+    text-align: center;
+}
+footer p {
+    font-size: 1rem;  
+    color: var(--primario); 
+}
