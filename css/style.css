@@ -55,7 +55,7 @@ li {
 
 header{
     background-color: var(--secundario);
-    /* padding: 1rem 2rem; */
+    padding: 1rem 2rem;
     border: none;
     grid-area: header;
     gap: 2rem;
@@ -72,8 +72,14 @@ header{
     justify-content: space-between;
     align-content: center;
     gap: 1.5rem;
-    padding: 0 1.5rem;
-    
+    padding: 0 1.5rem;    
+}
+.navegador-redes {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    gap: 1rem;
+    padding: 0 0 0 1.5rem;
 }
 header a {
     text-decoration: none;
