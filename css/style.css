@@ -72,7 +72,6 @@ header{
     justify-content: space-between;
     align-content: center;
     gap: 1.5rem;
-<<<<<<< HEAD
     padding: 0 1.5rem;    
 }
 .navegador-redes {
@@ -81,10 +80,6 @@ header{
     align-content: center;
     gap: 1rem;
     padding: 0 0 0 1.5rem;
-=======
-    padding: 0 1.5rem;
-    
->>>>>>> 917e9ca4dd7417a5fdce641ce951a9ba7c6b65cd
 }
 header a {
     text-decoration: none;
@@ -123,29 +118,17 @@ nav {
     display: grid;
     width: 100%;
     height: 100vh;
-<<<<<<< HEAD
     grid-template-columns: 10% 1fr 10%;
     grid-template-rows: 10% 1fr 5%;
     grid-template-areas: 
         "header header header"
         " main main main "
         "footer footer footer";
-=======
-    grid-template-rows: 10% 1fr 5%;
-    grid-template-areas: 
-        "header"
-        "main"
-        "footer";
->>>>>>> 917e9ca4dd7417a5fdce641ce951a9ba7c6b65cd
 }
 .contenedor-header {
     width: 100%;
     display: grid;
-<<<<<<< HEAD
     grid-template-columns: 10% 1fr 10%;
-=======
-    grid-template-columns: 15% 1fr 15%;
->>>>>>> 917e9ca4dd7417a5fdce641ce951a9ba7c6b65cd
     align-items: center;
 }
 
@@ -176,7 +159,6 @@ nav {
     grid-column-end: 3;
     margin-bottom: 2rem;
 }
-<<<<<<< HEAD
 .contenedor-nosotros {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -210,12 +192,7 @@ nav {
     justify-content: space-around;
     margin: 2rem 0;
 }
-=======
-
-
->>>>>>> 917e9ca4dd7417a5fdce641ce951a9ba7c6b65cd
 /**Main**/
-
 main {
     grid-area: main;
 }
@@ -230,7 +207,6 @@ main {
 }
 
 /**Nosotros**/
-<<<<<<< HEAD
 .contenedor-nosotros h2 {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -263,8 +239,6 @@ main {
     grid-row-start: 2;
     grid-row-end: 3;
 }
-=======
->>>>>>> 917e9ca4dd7417a5fdce641ce951a9ba7c6b65cd
 
 .img-nosotros {
     width: 30rem;
